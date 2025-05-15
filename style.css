@@ -242,3 +242,28 @@ h2{
 .fab:active {
   transform: translateY(0);
 }
+
+/* ─── ANNOUNCEMENT BAR ───────────────────────────────────────────────────── */
+
+.announcement {
+  width: 100%;
+  background-color: #805d2f;    /* match your theme */
+  overflow: hidden;
+  padding: 10px 0;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.2em;             /* adjust for readability */
+  font-weight: bold;
+  animation: scroll-left 12s linear infinite;
+  /* RTL adjustment: start from right edge */
+  transform: translateX(100%);
+}
+
+@keyframes scroll-left {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
