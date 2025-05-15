@@ -3,30 +3,38 @@ document.addEventListener('DOMContentLoaded', function () {
     manakish: {
       title: '١. منقوش',
       items: [
-        { name: 'زعتر', sizes: { small: '30,000 ل.ل', large: '50,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'زعتر مشروحة', sizes: { large: '70,000 ل.ل' }, image: 'images/zaatar-meshroha.jpg' },
-        { name: 'جبنة و زعتر', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'جبنة', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'جبنة مشروحة', sizes: { large: '200,000 ل.ل' }, image: 'images/cheese-meshroha.jpg' },
-        { name: 'جبنة خضره', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'جبنة و ذرة', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'جبنة سجق', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'جبنة مرتديل', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'لبنة خضرة', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'لبنة خضرة و مرتديل', sizes: { large: '300,000 ل.ل' }, image: 'images/labneh.jpg' },
-        { name: 'اريش', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'اريش مع جبنة', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'تركية', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'كشك', sizes: { small: '100,000 ل.ل', large: '150,000 ل.ل' }, image: 'images/abedlogo.jpeg' },
-        { name: 'فاهيتا مع جبنة', sizes: { large: '300,000 ل.ل' }, image: 'images/fahita.jpg' },
-        { name: 'طاوق مع جبنة', sizes: { large: '300,000 ل.ل' }, image: 'images/taouq.jpg' }
+        { name: 'زعتر', sizes: { small: '30,000 ل.ل', large: '50,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'زعتر مشروحة', sizes: { large: '70,000 ل.ل' }, image: 'zaatar-meshroha.jpg' },
+        { name: 'جبنة و زعتر', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'جبنة', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'جبنة مشروحة', sizes: { large: '200,000 ل.ل' }, image: 'cheese-meshroha.jpg' },
+        { name: 'جبنة خضره', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'جبنة و ذرة', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'جبنة سجق', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'جبنة مرتديل', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'لبنة خضرة', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'لبنة خضرة و مرتديل', sizes: { large: '300,000 ل.ل' }, image: 'labneh.jpg' },
+        { name: 'اريش', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'اريش مع جبنة', sizes: { small: '100,000 ل.ل', large: '200,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'تركية', sizes: { small: '50,000 ل.ل', large: '100,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'كشك', sizes: { small: '100,000 ل.ل', large: '150,000 ل.ل' }, image: 'abedlogo.jpeg' },
+        { name: 'فاهيتا مع جبنة', sizes: { large: '300,000 ل.ل' }, image: 'fahita.jpg' },
+        { name: 'طاوق مع جبنة', sizes: { large: '300,000 ل.ل' }, image: 'taouq.jpg' }
       ]
     },
     soiree: {
       title: '٢. سواريه',
       items: [
-        { name: 'سندويش دجاج', price: '12,000 ل.ل' },
-        { name: 'سندويش لحم', price: '13,000 ل.ل' }
+            { name: 'برق جبنة',             price: '150,000 ل.ل' },
+            { name: 'برق لحمة',             price: '150,000 ل.ل' },
+            { name: 'برق جبنة سلامي',        price: '200,000 ل.ل' },
+            { name: 'لحمة بعجين',           price: '50,000 ل.ل'  },
+            { name: 'رقاقات جبنة',          price: '50,000 ل.ل'  },
+            { name: 'رقائق فاهيتا',         price: '50,000 ل.ل'  },
+            { name: 'دزينة رقائق',          price: '600,000 ل.ل' },
+            { name: 'سواريه جبنة',          price: '25,000 ل.ل'  },
+            { name: 'سبانغ',                price: '50,000 ل.ل'  },
+            { name: 'دزينة سواريه',         price: '300,000 ل.ل' }
       ]
     },
     kaak: {
@@ -52,8 +60,8 @@ document.addEventListener('DOMContentLoaded', function () {
     juices: {
       title: '٥. عصائر',
       items: [
-        { name: 'برتقال', price: '4,000 ل.ل' },
-        { name: 'ليمون', price: '4,000 ل.ل' },
+        { name: 'Pepsi', price: ' ل.ل' },
+        { name: '7-uo', price: ' ل.ل' },
         
       ]
     }
